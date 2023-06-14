@@ -21,7 +21,6 @@ const employeeSchema =  new mongoose.Schema({
         type:Number,
         required:true,
         min:10,
-        max:10,
         unique:true
     },
     address:{
